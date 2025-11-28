@@ -64,10 +64,7 @@ def gerar_ata_reuniao(input_text: str):
     # ==================================================
     content = oci.generative_ai_inference.models.TextContent()
     content.text = (
-        "Faça uma ATA de reunião com esse texto preenchendo os tópicos do HTML como "
-        "Data, Participantes, Objetivo da Reunião, Principais Pontos Discutidos, "
-        "Decisões Tomadas e Próximos Passos. "
-        "USE o template abaixo exatamente como está, sem modificar estrutura. "
+        "Prompt "
         "\n\nTEMPLATE HTML:\n"
         + template_html +
         "\n\nUTILIZE ESSE TEMPLETE HTML SEM (```html):\n" + input_text
