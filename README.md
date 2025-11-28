@@ -9,6 +9,8 @@ It also automatically cleans all temporary files and Speech jobs.
 
 # **📌 Architecture Diagram (ASCII)**
 
+![Logo da empresa](s2.png "Overview")  
+
 ```
                            +-----------------------+
                            |  User Web App         |
