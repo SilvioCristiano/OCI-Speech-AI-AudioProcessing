@@ -1,0 +1,8 @@
+fdk>=0.1.102
+oci
+pytz
+email-validator
+python-dateutil
+requests
+urllib3
+jinja2
